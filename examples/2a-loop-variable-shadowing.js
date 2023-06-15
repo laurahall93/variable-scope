@@ -4,6 +4,7 @@ const punctuationChar = '!';
 
 for (let count = 1; count <= 2; count++) {
   // declaring a new variable with narrower scope
+  const punctuationChar = '?';
   console.log(`I am in loop scope${punctuationChar}`);
 }
 
